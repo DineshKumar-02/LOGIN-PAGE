@@ -1,0 +1,116 @@
+/* General page styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login card */
+.login-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Mac-style buttons */
+.mac-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.mac-buttons span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red { background: red; }
+.yellow { background: yellow; }
+.green { background: green; }
+
+.theme-toggle {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+/* Title */
+.mac-title {
+  margin: 10px 0;
+}
+
+/* Input fields */
+.input-group {
+  margin: 10px 0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Login button */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background: #0056b3;
+}
+
+/* Forgot password link */
+.forgot-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* Dark theme toggle */
+.dark-theme {
+  background: #222;
+  color: #fff;
+}
+
+.dark-theme .login-card {
+  background: #333;
+  color: #fff;
+}
+
+.dark-theme input {
+  background: #444;
+  color: #fff;
+  border: 1px solid #666;
+}
+
+.dark-theme .login-button {
+  background: #28a745;
+}
+
+.dark-theme .login-button:hover {
+  background: #1e7e34;
+}
